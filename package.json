@@ -1,0 +1,26 @@
+{
+  "name": "crud-ops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:dev": "nodemon server.js --watch src",
+    "start:prod": "node server.js",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7"
+  }
+}
